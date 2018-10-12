@@ -1,0 +1,33 @@
+.imgContainer {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.modulesContainer {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 45%;
+  background-color: white;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .imgContainer {
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+
+  .modulesContainer {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: white;
+  }
+  
+}

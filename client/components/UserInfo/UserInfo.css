@@ -1,0 +1,21 @@
+.userInfo {
+  position: fixed;
+  margin: 2% auto auto 16%;
+}
+
+.userInfoContainer {
+  display: block;
+  text-align: center;
+  margin-bottom: 20%;
+}
+
+.username {
+  margin-top: 4%;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.userEmail {
+  margin-top: 4%;
+  font-size: 14px;
+}

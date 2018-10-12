@@ -1,0 +1,110 @@
+.categories {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+  border-bottom: 1px solid #e4e4e4;
+  border-top: 1px solid #e4e4e4;
+  font-weight: 700;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  line-height: 15px;
+  margin-top: 56px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+}
+
+.btns {
+  text-align: center;
+  height: 35px;
+  line-height: 30px;
+}
+
+.btnContainerHome {
+  /*float: left;*/
+  display: inline-block;
+  width: 15%;
+
+}
+
+.homeBtnOn {
+  border: 1px solid #e4e4e4;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  color: #ff4350;
+  background-color: white; 
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.homeBtnOff {
+  border: 1px solid #e4e4e4;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  color: #ffb3b8;
+  background-color: white; 
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btnContainerMySongs {
+  display: inline-block;
+  width: 15%;
+}
+
+.mySongsBtnOn {
+  border: 1px solid #e4e4e4;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  color: #ff4350;
+  background-color: white; 
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.mySongsBtnOff {
+  border: 1px solid #e4e4e4;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  color: #ffb3b8;
+  background-color: white; 
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btnContainerParticipations {
+  /*float: right;*/
+  display: inline-block;
+  width: 15%;
+}
+
+.participationsBtnOn {
+  border: 1px solid #e4e4e4;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  color: #ff4350;
+  background-color: white; 
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.participationsBtnOff {
+  border: 1px solid #e4e4e4;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  color: #ffb3b8;
+  background-color: white; 
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}

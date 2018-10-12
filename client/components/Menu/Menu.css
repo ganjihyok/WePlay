@@ -1,0 +1,34 @@
+.menuBtn {
+  float: right;
+  margin-left: auto;
+  margin-right: 16%;
+  cursor: pointer;
+}
+
+.menu {
+  position: absolute;
+  margin-top: 10px;
+  border: 1px solid #dcdcdc;
+  background-color: white;
+  z-index:9;
+  width: 200px;
+  transition: ease-in-out;
+}
+
+.icon {
+  margin-left: 150px;
+}
+
+.menuItem {
+  display: block;
+  width: 100%;
+  height: 40px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.divider {
+  border-bottom: 1px solid #dcdcdc;
+  width: 100%;
+}

@@ -1,0 +1,153 @@
+.outerModal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerModal {
+  position:relative;
+  width: 40%;
+  height: 55%;
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid #e4e4e4;
+  background: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.role {
+  border: 1px solid #e4e4e4;
+  border-radius: 5px;
+  height: 45px;
+  width: 100px;
+  margin: 10px 10px 10px 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.role:hover {
+  background-color: #e4e4e4;
+}
+
+.selectedRole {
+  /*border: 1px solid #e4e4e4;*/
+  background-color: #ff4350;
+  border-radius: 5px;
+  height: 45px;
+  width: 100px;
+  margin: 10px 10px 10px 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.selectedRoles {
+  border: 1px solid #e4e4e4;
+  background-color: #00878c;
+  border-radius: 5px;
+  height: 45px;
+  width: 100px;
+  margin: 10px 10px 10px 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.closeBtn {
+  margin-left: 95%;
+  cursor: pointer;
+}
+
+.titleContainer {
+  margin-top: 50px;
+}
+
+.detailContainer {
+  margin-top: 10px;
+}
+
+.urlContainer {
+  margin-top: 10px;
+}
+
+.nxtBtn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 70px;
+  height: 30px;
+  line-height: 30px;
+  color: white;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #ff4350;
+  cursor: pointer;
+}
+
+.prevBtn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 70px;
+  height: 30px;
+  line-height: 30px;
+  color: white;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background-color: #ff4350;
+  cursor: pointer;
+}
+
+.submitBtn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 70px;
+  height: 30px;
+  line-height: 30px;
+  color: white;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: #ff4350;
+  cursor: pointer;
+}
+
+.titleInput {
+  font-size: 15px;
+  width: 80%;
+  height: 25px;
+  border: 1px solid #e4e4e4;
+  background-color: #fbfbfb;
+}
+
+.urlInput {
+  font-size: 15px;
+  width: 80%;
+  height: 25px;
+  border: 1px solid #e4e4e4;
+  background-color: #fbfbfb;
+}
+
+.detailInput {
+  font-size: 15px;
+  width: 80%;
+  height: 180px;
+  border: 1px solid #e4e4e4;
+  background-color: #fbfbfb;
+  resize: none;
+  box-sizing: border-box;
+}
+
+button:focus {outline:0;}
