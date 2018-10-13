@@ -85,6 +85,7 @@
   width: 35px;
   height: 21px;
   cursor: pointer;
+  background-color: white;
 }
 
 .expandBtnHide {
@@ -93,6 +94,7 @@
 
 .usernameOccupied {
   color: #e4e4e4;
+  font-size: 10px;
 }
 
 .usernameOccupiedHide {

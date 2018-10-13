@@ -78,7 +78,7 @@ class SignupModule extends Component {
       this.setState({ usernameValidation: -1 });
       return;
     }
-    if (e.target.value.length < 5) {
+    if (e.target.value.length < 5 || e.target.value.length > 10) {
       this.setState({ usernameValidation: 2 });
       return;
     }
@@ -158,8 +158,7 @@ class SignupModule extends Component {
               if (res.data.length === 0) {
                 alert('Email or password is incorrect')
               } else {
-                login(res.data[0]);
-                toggleLoginModal();
+                this.props.login(res.data[0]);
               }
             })
             .catch((error) => {
@@ -255,7 +254,7 @@ class SignupModule extends Component {
                   <div>
                     <input className={style.inputValidationFail} onBlur={this.validateUsername} placeholder="Enter username" value={username} onChange={this.handleUsername} required />
                     <div className={style.validationFail}>
-                      Username must be longer than 4 characters
+                      Username must be 4 to 10 characters
                     </div>
                   </div>
                 );

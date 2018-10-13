@@ -60,7 +60,6 @@ class SongListEntry extends Component {
           pull: false
         })
           .then((res) => {
-            alert('all set');
             fetch();
           })
           .catch((err) => {
@@ -86,7 +85,7 @@ class SongListEntry extends Component {
     }
 
     if (updated.ownerUsername === userInfo.username) {
-      alert('You cannot participate your own song!');
+      alert('You cannot participate your own song');
       return;
     }
 
@@ -105,7 +104,6 @@ class SongListEntry extends Component {
           pull: true
         })
           .then((res) => {
-            alert('all set');
             fetch();
           })
           .catch((err) => {

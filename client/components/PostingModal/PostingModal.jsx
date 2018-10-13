@@ -45,11 +45,19 @@ class PostingModal extends Component {
   }
 
   showSelectRolePage () {
-    this.setState({ currentPage: 2 });
+    if (!this.state.title || !this.state.detail || !this.state.url) {
+      alert('Please fill out');
+    } else {
+      this.setState({ currentPage: 2 });
+    }
   }
 
   showSelectRolesPage () {
-    this.setState({ currentPage: 3 });
+    if (!this.state.role) {
+      alert('Please pick your role');
+    } else {
+      this.setState({ currentPage: 3 });
+    }
   }
 
   selectRole (e) {
@@ -163,7 +171,7 @@ class PostingModal extends Component {
           </div>
           <div className={style.postContainer}>
             <h2>
-              Please select your role
+              You are..
             </h2>
             <div>
               {roles.map((item) => {
@@ -199,7 +207,7 @@ class PostingModal extends Component {
           </div>
           <div className={style.postContainer}>
             <h2>
-              Please select roles
+              And you need..
             </h2>
             <div>
               {roles.map((item) => {
