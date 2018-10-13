@@ -44,8 +44,8 @@
   }
 
   .logo {
-    display: inline-block;
-    margin-left: 3%;
+    /*display: inline-block;*/
+    margin-left: 0;
   }
 
   .botDivider {

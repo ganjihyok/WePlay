@@ -3,6 +3,7 @@
   margin-left: 25%;
   border-radius: 5px;
   border : 1px solid #e4e4e4;
+  /*background-color: white;*/
 }
 
 .searchBar:focus-within {
@@ -16,6 +17,8 @@
   background-color: #ffffff;
   border-radius: 5px;
   border: none;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .input:focus {
@@ -41,7 +44,7 @@
   }
 
   .input {
-    width: 91%;
+    width: 84.6%;
   }
   
 }

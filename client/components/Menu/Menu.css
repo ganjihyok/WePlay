@@ -38,11 +38,26 @@
 @media (min-width: 320px) and (max-width: 480px) {
   
   .menuBtn {
+    position: absolute;
+    margin-left: 0;
     margin-right: 3%;
+    margin-top: 1%;
+    top: 0;
+    right: 0;
+
+  }
+
+  .menu {
+    width: 145px;
+    right: 0;
+  }
+
+  .menuItem {
+    /*width: 10px;*/
   }
 
   .icon {
-    margin-left: none;
+    margin-left: 0;
   }
   
 }
