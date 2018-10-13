@@ -62,6 +62,7 @@
 }
 
 .closeBtn {
+  float: right;
   margin-left: 95%;
   cursor: pointer;
 }
@@ -151,3 +152,11 @@
 }
 
 button:focus {outline:0;}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .innerModal {
+    width: 100%;
+  }
+  
+}
