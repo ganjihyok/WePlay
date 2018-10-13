@@ -194,25 +194,25 @@ class SignupModule extends Component {
               switch (emailValidation) {
                 case 0: return (
                   <div>
-                    <input className={style.inputValidationFail} onBlur={this.validateEmail} type="text" placeholder="Enter email" name="email" value={email} onChange={this.handleEmail} required />
+                    <input className={style.inputValidationFail} onBlur={this.validateEmail} placeholder="Enter email" value={email} onChange={this.handleEmail} required />
                     <div className={style.validationFail}>
                       Email address in use.
                     </div>
                   </div>
                 );
                 case 1: return (
-                  <input className={style.inputValidationPass} onBlur={this.validateEmail} type="text" placeholder="Enter email" name="email" value={email} onChange={this.handleEmail} required />
+                  <input className={style.inputValidationPass} onBlur={this.validateEmail} placeholder="Enter email" value={email} onChange={this.handleEmail} required />
                 );
                 case 2: return (
                   <div>
-                    <input className={style.inputValidationFail} onBlur={this.validateEmail} type="text" placeholder="Enter email" name="email" value={email} onChange={this.handleEmail} required />
+                    <input className={style.inputValidationFail} onBlur={this.validateEmail} placeholder="Enter email" value={email} onChange={this.handleEmail} required />
                     <div className={style.validationFail}>
                       Invalid email format.
                     </div>
                   </div>
                 );
                 default: return (
-                  <input className={style.input} onBlur={this.validateEmail} type="text" placeholder="Enter email" name="email" value={email} onChange={this.handleEmail} required />
+                  <input className={style.input} onBlur={this.validateEmail} placeholder="Enter email" value={email} onChange={this.handleEmail} required />
                 );
               }
             })()}
@@ -222,17 +222,17 @@ class SignupModule extends Component {
               switch (passwordValidation) {
                 case 0: return (
                   <div>
-                    <input className={style.inputValidationFail} onBlur={this.validatePassword} type="password" placeholder="Enter password" name="psw" value={password} onChange={this.handlePassword} required />
+                    <input className={style.inputValidationFail} onBlur={this.validatePassword} type="password" placeholder="Enter password" value={password} onChange={this.handlePassword} required />
                     <div className={style.validationFail}>
                       Password must be longer than 8 characters.
                     </div>
                   </div>
                 );
                 case 1: return (
-                  <input className={style.inputValidationPass} onBlur={this.validatePassword} type="password" placeholder="Enter password" name="psw" value={password} onChange={this.handlePassword} required />
+                  <input className={style.inputValidationPass} onBlur={this.validatePassword} type="password" placeholder="Enter password" value={password} onChange={this.handlePassword} required />
                 );
                 default: return (
-                  <input className={style.input} onBlur={this.validatePassword} type="password" placeholder="Enter password" name="psw" value={password} onChange={this.handlePassword} required />
+                  <input className={style.input} onBlur={this.validatePassword} type="password" placeholder="Enter password" value={password} onChange={this.handlePassword} required />
                 );
               }
             })()}
@@ -242,25 +242,25 @@ class SignupModule extends Component {
               switch (usernameValidation) {
                 case 0: return (
                   <div>
-                    <input className={style.inputValidationFail} onBlur={this.validateUsername} type="text" placeholder="Enter username" name="uname" value={username} onChange={this.handleUsername} required />
+                    <input className={style.inputValidationFail} onBlur={this.validateUsername} placeholder="Enter username" value={username} onChange={this.handleUsername} required />
                     <div className={style.validationFail}>
                       Username in use.
                     </div>
                   </div>
                 );
                 case 1: return (
-                  <input className={style.inputValidationPass} onBlur={this.validateUsername} type="text" placeholder="Enter username" name="uname" value={username} onChange={this.handleUsername} required />
+                  <input className={style.inputValidationPass} onBlur={this.validateUsername} placeholder="Enter username" value={username} onChange={this.handleUsername} required />
                 );
                 case 2: return (
                   <div>
-                    <input className={style.inputValidationFail} onBlur={this.validateUsername} type="text" placeholder="Enter username" name="uname" value={username} onChange={this.handleUsername} required />
+                    <input className={style.inputValidationFail} onBlur={this.validateUsername} placeholder="Enter username" value={username} onChange={this.handleUsername} required />
                     <div className={style.validationFail}>
                       Username must be longer than 4 characters
                     </div>
                   </div>
                 );
                 default: return (
-                  <input className={style.input} onBlur={this.validateUsername} type="text" placeholder="Enter username" name="uname" value={username} onChange={this.handleUsername} required />
+                  <input className={style.input} onBlur={this.validateUsername} placeholder="Enter username" value={username} onChange={this.handleUsername} required />
                 );
               }
             })()}
