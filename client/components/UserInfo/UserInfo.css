@@ -19,3 +19,11 @@
   margin-top: 4%;
   font-size: 14px;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .userInfo {
+    display: none;
+  }
+  
+}

@@ -1,5 +1,5 @@
 .Home {
-  margin-top: 105px;
+  margin-top: 85px;
 }
 
 .songList {
@@ -82,4 +82,15 @@
   /*border-radius: 5px;*/
   cursor: pointer;
   width: 100%;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .Home {
+    margin-top: 105px;
+  }
+
+  .songList {
+    width: 100%;
+  }
 }

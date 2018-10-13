@@ -1,5 +1,5 @@
 .categories {
-  position: fixed;
+  display: block;
   top: 0;
   right: 0;
   left: 0;
@@ -7,26 +7,20 @@
   border-bottom: 1px solid #e4e4e4;
   border-top: 1px solid #e4e4e4;
   font-weight: 700;
-  font-size: 30px;
+  /*font-size: 30px;*/
   justify-content: center;
   align-items: center;
   vertical-align: middle;
-  line-height: 15px;
-  margin-top: 56px;
-}
-
-@media (min-width: 320px) and (max-width: 480px) {
-  
+  /*line-height: 15px;*/
 }
 
 .btns {
   text-align: center;
-  height: 35px;
-  line-height: 30px;
+  /*height: 35px;*/
+  /*line-height: 30px;*/
 }
 
-.btnContainerHome {
-  /*float: left;*/
+.btnContainer {
   display: inline-block;
   width: 15%;
 
@@ -54,7 +48,7 @@
   width: 100%;
 }
 
-.btnContainerMySongs {
+.btnContainer {
   display: inline-block;
   width: 15%;
 }
@@ -81,8 +75,7 @@
   width: 100%;
 }
 
-.btnContainerParticipations {
-  /*float: right;*/
+.btnContainer {
   display: inline-block;
   width: 15%;
 }
@@ -107,4 +100,11 @@
   border: none;
   cursor: pointer;
   width: 100%;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .btnContainer {
+    width: 33%;
+  }
 }

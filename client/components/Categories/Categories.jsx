@@ -46,17 +46,17 @@ class Categories extends Component {
     return (
       <div className={style.categories}>
         <div className={style.btns}>
-          <div className={style.btnContainerHome}>
+          <div className={style.btnContainer}>
             <button className={this.highlightBtn('home')} onClick={this.fetchAll}>
               <i className="fas fa-home"></i>
             </button>
           </div>
-          <div className={style.btnContainerMySongs}>
+          <div className={style.btnContainer}>
             <button className={this.highlightBtn('mySongs')} onClick={this.fetchMySongs}>
               <i className="fas fa-list-alt"></i>
             </button>
           </div>
-          <div className={style.btnContainerParticipations}>
+          <div className={style.btnContainer}>
             <button className={this.highlightBtn('participations')} onClick={this.fetchParticipations}>
               <i className="fas fa-users"></i>
             </button>

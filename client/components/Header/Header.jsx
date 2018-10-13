@@ -12,11 +12,13 @@ class Header extends Component {
   render () {
     return (
       <header className={style.header}>
+      <div className={style.topDivider} />
       <div className={style.logo}>
         WePlay
       </div>
-      <SearchBar fetch={this.props.fetch} />
       <Menu logout={this.props.logout} />
+      <SearchBar fetch={this.props.fetch} />
+      <div className={style.botDivider} />
       <Categories userInfo={this.props.userInfo} fetch={this.props.fetch} />
       </header>
     );
