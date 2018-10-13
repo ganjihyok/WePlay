@@ -127,6 +127,8 @@ class PostingModal extends Component {
       selectedRoles
     } = this.state;
 
+    let currentHeight = window.innerHeight;
+
     if (pageNum === 1) {
       return (
         <div>
@@ -144,7 +146,7 @@ class PostingModal extends Component {
               <input className={style.urlInput} placeholder="Youtube URL" type="text" name="url" value={url} onChange={this.handleUrl} required />
             </div>
             <div className={style.detailContainer}>
-              <textarea className={style.detailInput} placeholder="Detail" type="text" name="detail" value={detail} onChange={this.handleDetail} required />
+              <textarea className={style.detailInput} style={{height: currentHeight / 5}} placeholder="Detail" type="text" name="detail" value={detail} onChange={this.handleDetail} required />
             </div>
             <div className={style.nxtBtn} onClick={this.showSelectRolePage}>
               NEXT
@@ -236,6 +238,7 @@ class PostingModal extends Component {
 
   render () {
     const { currentPage } = this.state;
+    
     return (
       <div className={style.outerModal}>
         <div className={style.innerModal}>
